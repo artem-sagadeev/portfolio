@@ -1,0 +1,22 @@
+.contacts {
+    background-color: #f5ecea;
+}
+
+.contacts-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contacts-text {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    font-weight: 500;
+    font-family: 'First',Arial,sans-serif;
+    font-size: 20px;
+    line-height: 1.55;
+}
+
+.contacts-telegram-link {
+    color: rgb(2, 34, 34);
+}

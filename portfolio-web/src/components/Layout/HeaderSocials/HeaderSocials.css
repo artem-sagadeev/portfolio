@@ -1,0 +1,14 @@
+.header-right {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  padding-left: 30px;
+}
+
+.header-right-logo {
+  display: table;
+  text-align: right;
+  width: auto;
+  position: relative;
+  float: right;
+}

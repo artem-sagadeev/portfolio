@@ -1,0 +1,16 @@
+.header-left {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header-left-logo {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 24px;
+  white-space: nowrap;
+  padding-right: 30px;
+  font-family: 'First',Arial,sans-serif;
+}
