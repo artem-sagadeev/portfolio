@@ -14,14 +14,14 @@ namespace Portfolio.Api.Services
 
         public async Task<List<CasePreviewModel>> GetCasesPreviews()
         {
-            var cases = await _context.Cases.Include(@case => @case.PreviewImage).ToListAsync();
+            var cases = await _context.Cases.ToListAsync();
 
             return cases.Select(@case => new CasePreviewModel
             {
                 Id = @case.Id,
                 Title = @case.Title,
                 ShortDescription = @case.ShortDescription,
-                PreviewImagePath = @case.PreviewImage.Path
+                PreviewImageId = @case.PreviewImageId
             }).ToList();
         }
         

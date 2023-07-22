@@ -8,6 +8,6 @@
         
         public string ShortDescription { get; set; }
         
-        public string PreviewImagePath { get; set; }
+        public Guid PreviewImageId { get; set; }
     }
 }
